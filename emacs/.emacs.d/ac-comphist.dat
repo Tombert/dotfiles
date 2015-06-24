@@ -1,0 +1,22 @@
+((("unSetSelected" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("isSelected" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("volumes" .
+   [2 0 0 0 0 0 0])
+  ("$scope" .
+   [2 0 0 0 0 0])
+  ("party" .
+   [1 0 0 0 0])
+  ("getVolumes" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("inherited" .
+   [1 0 0 0 2 0 0 0 0])
+  ("collaborator" .
+   [0 0 0 0 1 2 0 0 0 0 0 0])
+  ("tempVolumes" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("individual" .
+   [0 0 0 3 0 0 0 0 0 0])
+  ("push" .
+   [2 0 0 0])))

@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/tombert/projects/databrary'
+let g:netrw_dirhist_2='/home/tombert/projects/databrary/app'
+let g:netrw_dirhist_3='/home/tombert/projects/databrary/app/assets'
+let g:netrw_dirhist_4='/home/tombert/projects/databrary/app/assets/asset'
+let g:netrw_dirhist_5='/home/tombert/projects/databrary/app/assets'
+let g:netrw_dirhist_6='/home/tombert/projects/databrary/app/assets/directive'
