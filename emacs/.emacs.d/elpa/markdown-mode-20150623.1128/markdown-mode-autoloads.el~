@@ -1,4 +1,4 @@
-;;; editorconfig-autoloads.el --- automatically extracted autoloads
+;;; markdown-mode-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
@@ -8,4 +8,4 @@
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
 ;; End:
-;;; editorconfig-autoloads.el ends here
+;;; markdown-mode-autoloads.el ends here
