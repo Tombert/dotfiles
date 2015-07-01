@@ -23,3 +23,9 @@
 (menu-bar-mode -1)
 (add-to-list 'load-path "~/.emacs.d/lisp")
 (global-auto-complete-mode)
+
+(require 'multiple-cursors)
+(global-set-key (kbd "M->") 'mc/mark-next-like-this)
+(global-set-key (kbd "M-<") 'mc/mark-previous-like-this)
+
+(xclip-mode 1)
