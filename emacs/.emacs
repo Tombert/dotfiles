@@ -28,4 +28,5 @@
 (global-set-key (kbd "M->") 'mc/mark-next-like-this)
 (global-set-key (kbd "M-<") 'mc/mark-previous-like-this)
 
-(xclip-mode 1)
+(when (fboundp 'winner-mode)
+  (winner-mode 1))
