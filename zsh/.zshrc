@@ -84,4 +84,5 @@ alias databrary="cd ~/projects/databrary"
 alias xclip='xclip -selection c'
 alias xl="xscreensaver-command -lock"
 alias emacs="emacs -nw"
+alias pupdate="sudo pacman -Syyu"
 export TERM=xterm-256color
