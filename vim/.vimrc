@@ -1,9 +1,14 @@
 execute pathogen#infect()
-syntax enable 
+syntax on
 filetype plugin indent on
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-:set guioptions-=T  "remove toolbar
-:set tabstop=2 shiftwidth=2 expandtab
-:set ignorecase
-:set smartcase
-map <C-n> :NERDTreeToggle<CR>
+set background=dark
+:set t_Co=256
+colorscheme wombat
+set backspace=2
+set ignorecase
+set smartcase
+set incsearch
+set ruler
+let g:netrw_banner=0
+let g:netrw_altv=1
+let g:netrw_alto=1
