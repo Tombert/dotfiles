@@ -22,6 +22,6 @@ set use_from        = yes
 set smtp_url        = smtp://$imap_user@smtp.kolabnow.com:587/
 
 set ssl_starttls    = yes
-source  /Users/tom.gebert/vombatidae.mutt
+source  $HOME/vombatidae.mutt
 bind index G imap-fetch-mail
 alternative_order text/plain text/enriched text/html
