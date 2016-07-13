@@ -1,0 +1,27 @@
+set mbox_type       =  Maildir
+set mbox            =  $HOME/mail/inbox/
+set folder          = $HOME/mail/
+set record          = $HOME/mail/sent/
+set postponed       = $HOME/mail/postponed/
+set header_cache    = $HOME/.mutt/cache
+set imap_user       =  thomas@gebert.sexy
+set folder          =  imaps://imap.kolabnow.com:993/
+set spoolfile       =  imaps://$imap_user@imap.kolabnow.com:993/INBOX/
+
+set ssl_force_tls   =  yes 
+
+set imap_keepalive  =  900
+
+set mail_check      =  120
+
+set my_user         =  thomas@gebert.sexy
+set realname        = "Thomas Gebert" 
+set from            = thomas@gebert.sexy
+
+set use_from        = yes 
+set smtp_url        = smtp://$imap_user@smtp.kolabnow.com:587/
+
+set ssl_starttls    = yes
+source  /Users/tom.gebert/vombatidae.mutt
+bind index G imap-fetch-mail
+alternative_order text/plain text/enriched text/html

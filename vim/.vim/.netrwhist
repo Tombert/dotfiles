@@ -1,8 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/tombert/projects/databrary'
-let g:netrw_dirhist_2='/home/tombert/projects/databrary/app'
-let g:netrw_dirhist_3='/home/tombert/projects/databrary/app/assets'
-let g:netrw_dirhist_4='/home/tombert/projects/databrary/app/assets/asset'
-let g:netrw_dirhist_5='/home/tombert/projects/databrary/app/assets'
-let g:netrw_dirhist_6='/home/tombert/projects/databrary/app/assets/directive'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='sftp://10.211.55.4//home/tom.gebert/projects/'
+let g:netrw_dirhist_2='sftp://10.211.55.4//home/tom.gebert/projects/storm-microservices/'
+let g:netrw_dirhist_3='sftp://10.211.55.4//home/tom.gebert/projects/storm-microservices/services/'
+let g:netrw_dirhist_4='sftp://10.211.55.4//home/tom.gebert/projects/storm-microservices/services/stormcenter/'
+let g:netrw_dirhist_5='sftp://10.211.55.4//home/tom.gebert/projects/storm-microservices/services/stormcenter/jobs/'
+let g:netrw_dirhist_6='sftp://10.211.55.4//home/tom.gebert/projects/storm-microservices/services/stormcenter/jobs/storm.jobs/'
+let g:netrw_dirhist_7='/Users/tom.gebert/Mail'
